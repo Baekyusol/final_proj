@@ -3,15 +3,47 @@
     margin: 0;
 }
 
-.container {
-    margin-bottom: 1rem;
-    height: 3rem;
+.navbar {
     background-color: aquamarine;
+    padding: 1rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    align-items: center;
+}
+.navbar-brand {
+    float: left;
+}
+.subtitle-btn {
+    width: 5em;
+    height: 3em;
+}
+.loading, .subtitle-btn{
+    float: right;
+    margin-right: 1rem;
+}
+video {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0 auto;
+}
+.subtitle {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+    
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
     background-color: black;
     color: white;
 }
